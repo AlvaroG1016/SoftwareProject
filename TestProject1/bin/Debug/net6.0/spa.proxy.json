@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "http://localhost:44447",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\alvar\\Desktop\\075_SistemaVenta_React_AspNetCore\\ReactVentas\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}
