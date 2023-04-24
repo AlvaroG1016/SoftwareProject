@@ -38,7 +38,7 @@ namespace TestProject1
         [Fact]
         public void Quantity_Categorias()
         {
-            //validamos si existen CATEGORIAS
+            //validamos si existen CATEGORIAS   
             var result = _categoriacontroller.Lista().Result;
             Assert.True(result != null);
         }

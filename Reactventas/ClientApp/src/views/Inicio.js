@@ -46,7 +46,7 @@ const Inicio = () => {
                     </FormGroup>
                     <FormGroup>
                         <Label>Rol</Label>
-                        <Input disabled value={dataUser.idRolNavigation.descripcion}/>
+                        <Input disabled value={dataUser?.idRolNavigation?.descripcion}/>
                     </FormGroup>
                 </Col>
                 <Col sm={3}>

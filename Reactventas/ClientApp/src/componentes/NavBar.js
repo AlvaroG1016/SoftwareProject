@@ -38,7 +38,7 @@ const NavBar = () => {
             <hr className="sidebar-divider my-0" />
 
             {
-                (dataUser.idRolNavigation.descripcion == "Administrador") &&
+                (dataUser?.idRolNavigation?.descripcion == "Administrador") &&
                 <li className="nav-item">
                     <NavLink to="/dashboard" className="nav-link" >
                         <i className="fas fa-fw fa-tachometer-alt"></i>
@@ -50,7 +50,7 @@ const NavBar = () => {
 
             <hr className="sidebar-divider" />
             {
-                (dataUser.idRolNavigation.descripcion == "Administrador") &&
+                (dataUser?.idRolNavigation?.descripcion == "Administrador") &&
                 <li className="nav-item">
                     <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUsuario"
                         aria-expanded="true" aria-controls="collapseUsuario">
@@ -66,7 +66,7 @@ const NavBar = () => {
             }
             
             {
-                (dataUser.idRolNavigation.descripcion == "Administrador") &&
+                (dataUser?.idRolNavigation?.descripcion == "Administrador") &&
                 <li className="nav-item">
                     <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseInventario"
                         aria-expanded="true" aria-controls="collapseInventario">
@@ -100,7 +100,7 @@ const NavBar = () => {
             </li>
 
 
-            {(dataUser.idRolNavigation.descripcion == "Administrador") &&
+            {(dataUser?.idRolNavigation?.descripcion == "Administrador") &&
                 <li className="nav-item">
                     <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseReporte"
                         aria-expanded="true" aria-controls="collapseReporte">
